@@ -31,7 +31,7 @@ export function TechStackShowcase() {
   const secondHalf = TECH_STACK.slice(10);
 
   return (
-    <section className="relative border-y border-border/50 bg-secondary/30 py-24 dark:bg-white/[0.02]">
+    <section className="relative overflow-hidden border-y border-border/50 bg-secondary/30 py-24 dark:bg-white/[0.02]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           badge="Technology"
