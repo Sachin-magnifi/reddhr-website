@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ReddHR — HR Technology & Custom Software Solutions
+
+A premium, animated marketing website for [ReddHR](https://www.linkedin.com/company/reddhr/about/), an HR technology and custom software development company based in Mumbai, India.
+
+**Live:** [reddhr-website.vercel.app](https://reddhr-website.vercel.app)
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **Next.js 16** | App Router, SSR, Static Generation |
+| **React 19** | UI Framework |
+| **Tailwind CSS v4** | Utility-first styling with CSS variables |
+| **Framer Motion** | Scroll-triggered animations, page transitions |
+| **Three.js** | 3D floating geometry in hero section |
+| **TypeScript** | Type safety |
+| **next-themes** | Dark/light mode toggle |
+| **Lucide React** | Icon system |
+
+## Features
+
+- 3D animated hero with floating wireframe geometry (Three.js)
+- Word-by-word text reveal animations
+- Scroll-triggered section animations throughout
+- Draggable testimonials carousel
+- Infinite dual-row tech stack marquee
+- Animated stat counters (8+ Years, 50+ Clients, 200+ Projects)
+- Custom cursor with spring-physics follower (desktop)
+- Dark mode by default with light mode support
+- Fully responsive (mobile, tablet, desktop)
+- Contact form with EmailJS integration
+- 15 statically generated pages for fast performance
+- SEO optimized with OpenGraph and Twitter Card metadata
+
+## Pages
+
+| Route | Page |
+|-------|------|
+| `/` | Home — 7 animated sections |
+| `/about` | Company story, timeline, team |
+| `/services` | All 7 services |
+| `/services/[slug]` | Individual service details (7 pages) |
+| `/contact` | Contact form + Google Maps |
+| `/careers` | Job openings + perks |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployed on [Vercel](https://vercel.com). Push to `main` to trigger automatic deployments.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Private project for ReddHR.
